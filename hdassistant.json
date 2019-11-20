@@ -1,0 +1,32 @@
+{
+    "appVersion": "1.0.0",
+    "maxCustomEquipmentImageFileSize": 2,
+    "heidelbergEShopLinkFallback": "https://shop.heidelberg.com/",
+    "heidelbergEShopLink": "https://shop.heidelberg.com/{isoCode}/cas",
+    "heidelbergEShopWidgetLink": "https://shop.heidelberg.com/de/hda-performance-agreement/hda-performance-licence-2.html?hda=1",
+    "heidelbergELearning": "https://assistant.heidelberg.com/Elearning/",
+    "services": {
+        "hda-backend": "https://api.assistant.heidelberg.com/HDAssistantApi/",
+        "heidelberg-id": "https://api.assistant.heidelberg.com/HeidelbergIdConsumerApi/",
+        "feature-flags": "https://api.heidelberg.com/HeidelbergFeatureFlagApi/",
+        "subscription-service": "https://api.heidelberg.com/HdaSubscriptionApi/",
+        "attachment-service": "https://attachment.assistant.heidelberg.com/HeidelbergAttachment3Api/",
+        "ssu-promotions-service": "https://api.heidelberg.com/HdaSsuPromotionsApi",
+        "mac-scout": "https://hdu-mcscout.azurewebsites.net/"
+    },
+    "clientId": "assistant",
+    "enableConsoleLogger": true,
+    "casUrl": "https://login.heidelberg.com/cas",
+    "casResetPasswordUrl": "https://login.heidelberg.com/casresetpassword/",
+    "oauthCasLogoutUrl": "https://login.heidelberg.com/cas/logout",
+    "oauthBaseUrl": "https://login.heidelberg.com/",
+    "oauthAuthSuffix": "cas/oauth2.0/authorize",
+    "oauthAccessTokenSuffix": "oauth2/accessToken",
+    "oauthProfileSuffix": "cas/oauth2.0/profile",
+    "googleAnalyticsTrackingId": "UA-49809980-1",
+    "environment": "prod",
+    "applicationInsightsId": "f5fd6241-200c-45d0-aff4-13e7c974cbc8",
+    "applicationInsightsName": "HDA Frontend PROD",
+    "passwordPolicyRegex": "(?=.*[A-Z])(?=.*[a-z])(?=.*\\d)[A-Za-z\\d@$!%*#?&]{10,}",
+    "headerTag": ""
+}

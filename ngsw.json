@@ -1,0 +1,37 @@
+{
+  "configVersion": 1,
+  "timestamp": 1574253636462,
+  "index": "/HDAssistantFrontend/index.html",
+  "assetGroups": [],
+  "dataGroups": [
+    {
+      "name": "api-performance",
+      "patterns": [
+        "\\/api\\/Translation[^/]*[^/]*"
+      ],
+      "strategy": "performance",
+      "maxSize": 100,
+      "maxAge": 86400000,
+      "version": 1
+    }
+  ],
+  "hashTable": {},
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}

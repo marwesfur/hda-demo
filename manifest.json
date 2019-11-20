@@ -1,0 +1,26 @@
+{
+  "name": "HEIDELBERG Assistant",
+  "short_name": "hda",
+  "theme_color": "#1976d2",
+  "background_color": "#fafafa",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "assets/heidelberg.png",
+      "sizes": "311x34",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/heidelberg_logo.png",
+      "sizes": "1260x136",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ]
+}
