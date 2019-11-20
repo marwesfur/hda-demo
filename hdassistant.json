@@ -6,12 +6,12 @@
     "heidelbergEShopWidgetLink": "https://shop.heidelberg.com/de/hda-performance-agreement/hda-performance-licence-2.html?hda=1",
     "heidelbergELearning": "https://assistant.heidelberg.com/Elearning/",
     "services": {
-        "hda-backend": "https://api.assistant.heidelberg.com/HDAssistantApi/",
-        "heidelberg-id": "https://api.assistant.heidelberg.com/HeidelbergIdConsumerApi/",
-        "feature-flags": "https://api.heidelberg.com/HeidelbergFeatureFlagApi/",
-        "subscription-service": "https://api.heidelberg.com/HdaSubscriptionApi/",
-        "attachment-service": "https://attachment.assistant.heidelberg.com/HeidelbergAttachment3Api/",
-        "ssu-promotions-service": "https://api.heidelberg.com/HdaSsuPromotionsApi",
+        "hda-backend": "https://api.assistant.stage.heidelberg.com/HDAssistantApi/",
+        "heidelberg-id": "https://api.assistant.stage.heidelberg.com/HeidelbergIdConsumerApi/",
+        "feature-flags": "https://api.stage.heidelberg.com/HeidelbergFeatureFlagApi/",
+        "subscription-service": "https://api.stage.heidelberg.com/HdaSubscriptionApi/",
+        "attachment-service": "https://attachment.assistant.stage.heidelberg.com/HeidelbergAttachment3Api/",
+        "ssu-promotions-service": "https://api.stage.heidelberg.com/HdaSsuPromotionsApi",
         "mac-scout": "https://hdu-mcscout.azurewebsites.net/"
     },
     "clientId": "assistant",

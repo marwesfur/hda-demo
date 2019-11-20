@@ -1,1 +1,1 @@
-AUTH.init('https://login.heidelberg.com/cas');
+AUTH.init('https://login.stage.heidelberg.com/cas');
